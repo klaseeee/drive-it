@@ -96,33 +96,33 @@
 
     .container.tc .content .icon ul {
         position: absolute;
-        right: -120px;
+        right: -100px;
         top: 30px;
     }
 
     .container .content .icon ul li:nth-child(1) img {
         position: absolute;
-        top: -6px;
-        right: 220px;
+        top: -70px;
+        right: 140px;
     }
 
     .container .content .icon ul li:nth-child(2) img {
         position: absolute;
-        top: 50px;
-        right: 15px;
+        top: -50px;
+        right: -50px;
         /* border: 1px solid red; */
     }
 
     .container .content .icon ul li:nth-child(3) img {
         position: absolute;
-        right: -260px;
-        top: -7px;
+        right: -300px;
+        top: -80px;
     }
 
     .container .content .icon ul li:nth-child(4) img {
         position: absolute;
-        right: -450px;
-        bottom: 15px;
+        right: -510px;
+        bottom: 80px;
     }
 
     .container.tc .content {
@@ -166,7 +166,7 @@
         border-left: 4px solid black;
         flex-direction: column;
         justify-content: space-evenly;
-        transform: translate(-230px, 0);
+        transform: translate(-170px, 0);
         left: 10%;
     }
 
@@ -207,7 +207,7 @@
         flex-direction: column;
         justify-content: space-between;
         padding: 50px 0;
-        transform: translate(0, -67px);
+        transform: translate(25px, -67px);
     }
 
     .container .content .deskripsi ul .two {
