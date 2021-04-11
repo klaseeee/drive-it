@@ -59,13 +59,13 @@
 
     .container-cars .cards ul li{
         margin: 10px 0;
-        height: 300px;
-        width: 280px;
+        height: 330px;
+        width: 310px;
     }
 
     .container-cars .cards ul li img {
-        height: 300px;
-        width: 280px;
+        height: 330px;
+        width: 310px;
         object-fit: cover;
         transform: translate(0, -55px);
     }
