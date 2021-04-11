@@ -130,6 +130,7 @@
         /* border: 1px solid rgb(5, 1, 1); */
         min-height: 120vh;
         width: 100%;
+        overflow: hidden;
     }
 
     .container .content .icon ul li img {
@@ -235,7 +236,7 @@
 @media screen and (max-width: 576px) {
     .container.comp {
         position: relative;
-        min-height: 100vh;
+        min-height: 70vh;
     }
 
     .container.comp .judul h3 {
