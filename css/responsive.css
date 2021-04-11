@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ukuran mobile */
+/* hero-image */
+@media screen and (max-width: 576px) {
+    .container-hero {
+        position: relative;
+    }
+    
+    /* .container-hero .hero-image {
+        margin-left: -300px;
+    } */
+
+    .container-hero .hero-image img {
+        background-image: url(../img/mobile.png);
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: 75% 0%;
+        
+    }
+
+    .container-hero .text {
+        position: absolute;
+        font-size: 12px;
+        line-height: 38px;
+        top: 35%;
+        left: 10%;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .container-hero .button {
+        position: absolute;
+        left: 10%;
+        top: 55%;
+        font-size: 20px;
+        
+    }
+}
+
+/* menu cars */
+@media screen and (max-width: 576px) {
+    .container-cars {
+        position: relative;
+        min-height: 100vh;
+        overflow: hidden;
+    }
+
+    .container-cars .cards ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-cars .cards ul li{
+        margin: 10px 0;
+    }
+}
+
+/* menu iRental works */
+@media screen and (max-width: 576px) {
+    .container.tc {
+        /* position: relative; */
+        /* border: 1px solid black; */
+        min-height: 160vh;
+    }
+
+    .container.tc .judul {
+        transform: translate(0px, -40px);
+        /* border: 1px solid black; */
+    }
+
+    .container.tc .content {
+        transform: translate(0px, -60px);
+    }
+
+    .container.tc .content .icon {
+        transform: rotate(90deg);
+        /* border: 1px solid blue; */
+        /* margin-bottom: -500px; */
+    }
+
+    .container.tc .content .icon ul {
+        position: absolute;
+        right: -120px;
+        top: 30px;
+    }
+
+    .container .content .icon ul li:nth-child(1) img {
+        position: absolute;
+        top: -6px;
+        right: 220px;
+    }
+
+    .container .content .icon ul li:nth-child(2) img {
+        position: absolute;
+        top: 50px;
+        right: 15px;
+        /* border: 1px solid red; */
+    }
+
+    .container .content .icon ul li:nth-child(3) img {
+        position: absolute;
+        right: -260px;
+        top: -7px;
+    }
+
+    .container .content .icon ul li:nth-child(4) img {
+        position: absolute;
+        right: -450px;
+        bottom: 15px;
+    }
+
+    .container.tc .content {
+        position: relative;
+        /* border: 1px solid rgb(5, 1, 1); */
+        min-height: 120vh;
+        width: 100%;
+    }
+
+    .container .content .icon ul li img {
+        transform: rotate(-90deg);
+    }
+
+    .container.tc .content .step {
+        display: flex;
+        flex-direction: column-reverse;
+        /* border: 1px solid black; */
+        transform: translate(0px, -150px);
+        min-height: 140vh;
+        position: relative;
+        top: 150px;
+    }
+
+    .container .content .step .line {
+        transform: rotate(90deg);
+        width: 100%;
+        /* border: 1px solid red; */
+        position: absolute;
+        left: -50%;
+        display: none;
+        /* top: -100px; */
+        /* transform: matrix(20, 0, 0, 1, 1, 10); */
+    }
+
+    .container .content .step .nomor {
+        position: relative;
+        height: 100%;
+        width: 10vw;
+        /* width: 100%; */
+        display: flex;
+        border-left: 4px solid black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        transform: translate(-230px, 0);
+        left: 10%;
+    }
+
+    .container .content .step .nomor .satu{
+        position: absolute;
+        top: 0;
+        left: -73px;
+    }
+
+    .container .content .step .nomor .dua {
+        position: absolute;
+        top: 25%;
+        left: -20px;
+    }
+
+    .container .content .step .nomor .tiga {
+        position: absolute;
+        top: 52%;
+        left: -40px;
+    }
+
+    .container .content .step .nomor .empat {
+        position: absolute;
+        top: 77%;
+        left: -20px;
+    }
+
+    .container .content .deskripsi {
+        transform: translate(5px, -800px);
+    }
+
+    .container .content .deskripsi ul {
+        /* border: 1px solid blue; */
+        position: relative;
+        min-height: 120vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 0;
+        transform: translate(0, -67px);
+    }
+
+    .container .content .deskripsi ul .two {
+        transform: translate(0, 50px);
+    }
+
+    .container .content .deskripsi ul .three {
+        transform: translate(0, 110px);
+    }
+
+    .container .content .deskripsi ul .four {
+        transform: translate(0, 170px);
+    }
+    
+    .container .content .deskripsi ul .kotak{
+        /* border: 1px solid red; */
+        margin: auto;
+        width: 70%;
+        height: 100px;
+        text-align: justify;
+    }
+}
+
+/* menu prices */
+@media screen and (max-width: 576px) {
+    .container.comp {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    .container.comp .judul h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .container.comp .header {
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid black; */
+    }
+
+    .container.comp li:nth-child(1) {
+        /* border: 1px solid blue; */
+        transform: translate(-60px, 0);
+    }
+
+    .container.comp li:nth-child(2) {
+        transform: translate(-8px, 0);
+    }
+
+    .container.comp li:nth-child(3) {
+        font-size: 16px;
+        text-align: center;
+        /* border: 1px solid green; */
+        line-height: 22px;
+        transform: translate(50px, 0)
+    }
+
+    .container.comp .header li img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .container.comp table {
+        width: 99%;
+    }
+
+    .container.comp table tr th:nth-child(2) {
+        width: 25%;
+    }
+}
+
+/* menu about us */
+@media screen and (max-width: 576px) {
+    .container.about {
+        min-height: 90vh;
+    }
+
+    .container.about p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
