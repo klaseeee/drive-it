@@ -6,7 +6,7 @@
 
 /* ukuran mobile */
 /* hero-image */
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
     .container-hero {
         position: relative;
     }
@@ -43,11 +43,11 @@
 }
 
 /* menu cars */
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
     .container-cars {
         position: relative;
         min-height: 100vh;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .container-cars .cards ul {
@@ -55,24 +55,29 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transform: translateY(-20px);
     }
 
     .container-cars .cards ul li{
         margin: 10px 0;
-        height: 330px;
-        width: 310px;
+        height: 40%;
+        width: 100%;
     }
 
-    .container-cars .cards ul li img {
-        height: 330px;
-        width: 310px;
+    .container-cars .cards ul li img{
+        height: 40%;
+        width: 90%;
         object-fit: cover;
         transform: translate(0, -55px);
+    }
+
+    .container-cars .all {
+        transform: translateY(-20px);
     }
 }
 
 /* menu iRental works */
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
     .container.tc {
         /* position: relative; */
         /* border: 1px solid black; */
@@ -233,7 +238,7 @@
 }
 
 /* menu prices */
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
     .container.comp {
         position: relative;
         min-height: 70vh;
@@ -283,7 +288,7 @@
 }
 
 /* menu about us */
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
     .container.about {
         min-height: 90vh;
     }
