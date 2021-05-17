@@ -30,10 +30,6 @@ nav {
     font-family: "Poppins", sans-serif;
 }
 
-.leftnav li {
-    /* margin: 0 15px; */
-}
-
 .leftnav li a {
     text-decoration: none;
     color: black;
@@ -182,10 +178,6 @@ nav {
     width: 320px;
     height: 310px;
     object-fit: cover;
-}
-
-.cards ul li img:hover {
-    /* transform: scale(1); */
 }
 
 .cards ul li h5 {
@@ -537,10 +529,6 @@ img {
 
 .container .deskripsi ul .one {
     margin-left: 100px;
-}
-
-.container .deskripsi ul .two {
-    /* margin-left: 25px; */
 }
 
 .container .deskripsi ul .three {
