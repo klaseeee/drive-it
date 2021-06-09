@@ -571,9 +571,9 @@ img {
 }
 
 .container .header li:nth-child(1) img{
-    height: 140px;
-    width: 140px;
-    object-fit: cover;
+    width: 120px;
+    height: 55px;
+    
 }
 
 .container .header li:nth-child(2) {
@@ -596,6 +596,7 @@ img {
     min-height: 300px;
     padding: 0 20px;
     margin: auto;
+    transform: translateY(30px);
 }
 
 .container.comp table tr th {
