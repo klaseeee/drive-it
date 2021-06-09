@@ -74,9 +74,12 @@ body {
         overflow: scroll;
     }
 
+    .rightnav a img {
+        transform: translateY(0px);
+    }
+
     .container-cars .cards ul {
         transform: translate(300px, 0);
-
     }
 
     nav ul {
