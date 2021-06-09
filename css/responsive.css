@@ -259,8 +259,9 @@
         /* border: 1px solid black; */
     }
 
-    .container.comp li:nth-child(1) {
-        /* border: 1px solid blue; */
+    .container.comp .header li:nth-child(1) img{
+        width: 120px;
+        height: 60px;
         transform: translate(-60px, 0);
     }
 
