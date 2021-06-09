@@ -81,12 +81,16 @@
     .container.tc {
         /* position: relative; */
         /* border: 1px solid black; */
-        min-height: 160vh;
+        min-height: 180vh;
     }
 
     .container.tc .judul {
         transform: translate(0px, -40px);
         /* border: 1px solid black; */
+    }
+
+    .container.tc .judul h3, .container-cars .judul h3, .container.comp .judul h3, .container.about .judul h3 {
+        font-size: 22px;
     }
 
     .container.tc .content {
@@ -240,8 +244,7 @@
 /* menu prices */
 @media only screen and (max-width: 600px) {
     .container.comp {
-        position: relative;
-        min-height: 70vh;
+        height: 90vh;
     }
 
     .container.comp .judul h3 {
